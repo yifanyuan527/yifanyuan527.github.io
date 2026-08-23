@@ -178,6 +178,10 @@ h3 {
   color: #333333;
 }
 
+.program-line {
+  display: block;
+}
+
 .interests p,
 .interest-list {
   max-width: 820px;
@@ -280,6 +284,15 @@ li + li {
   max-height: 390px;
 }
 
+.bnpl-project {
+  grid-template-columns: 390px minmax(0, 1fr);
+  gap: 34px;
+}
+
+.bnpl-project .project-thumb img {
+  max-height: 330px;
+}
+
 .project h3 {
   color: #1976d2;
   font-size: 1.06rem;
@@ -356,6 +369,10 @@ li + li {
 
   .project-thumb {
     max-width: 360px;
+  }
+
+  .bnpl-project {
+    grid-template-columns: 1fr;
   }
 }
 
