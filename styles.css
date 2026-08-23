@@ -125,7 +125,7 @@ h1 {
   object-fit: cover;
   object-position: center 30%;
   transform: scale(1.08);
-  filter: brightness(1.06) contrast(1.08) saturate(1.08);
+  filter: brightness(0.99) contrast(0.96) saturate(1.03);
 }
 
 .contact-stack {
