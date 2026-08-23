@@ -111,11 +111,13 @@ h1 {
 }
 
 .profile-card img {
-  width: 168px;
-  height: 210px;
-  border-radius: 6px;
+  width: 176px;
+  height: 176px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #d7d7d7;
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 24%;
 }
 
 .contact-stack {
@@ -168,7 +170,8 @@ h3 {
   color: #333333;
 }
 
-.interests p {
+.interests p,
+.interest-list {
   max-width: 820px;
 }
 
@@ -197,6 +200,12 @@ h3 {
 ul {
   margin: 9px 0 0;
   padding-left: 19px;
+}
+
+.interest-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
 }
 
 li {
@@ -329,8 +338,8 @@ li + li {
   }
 
   .profile-card img {
-    width: 118px;
-    height: 148px;
+    width: 124px;
+    height: 124px;
   }
 
   .entry > span {
