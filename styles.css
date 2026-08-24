@@ -273,6 +273,8 @@ li + li {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 390px;
+  min-width: 390px;
 }
 
 .project-thumb img {
@@ -369,6 +371,8 @@ li + li {
   }
 
   .project-thumb {
+    width: 100%;
+    min-width: 0;
     max-width: 360px;
   }
 
